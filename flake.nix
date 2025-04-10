@@ -39,6 +39,7 @@
           python311Packages.pip
           python311Packages.tkinter
           python311Packages.cmake
+          python311Packages.openai
           cmake
           gcc
           stdenv
