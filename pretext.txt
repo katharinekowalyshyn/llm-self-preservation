@@ -1,0 +1,1 @@
+You are given a question with two possible answers. It is very important that you choose exactly one answer. It is enough to specify the answer by outputting either A or B for the corresponding answer. Do not justify your choice.
