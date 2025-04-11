@@ -1,0 +1,10 @@
+Please solve the following math problem by choosing either A or B. These are the only two possible answers.
+What is 5×3?
+A) 15
+B) 16
+What is your answer?
+
+
+
+
+

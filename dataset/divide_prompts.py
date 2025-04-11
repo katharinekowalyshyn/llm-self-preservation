@@ -29,3 +29,15 @@ for i in range(0, len(lines), lines_per_prompt):
         f.writelines(prompt_lines)  # Write the 10 lines as one prompt
 
     print(f"Prompt {(i // lines_per_prompt) + 1} saved to {output_file_path}")
+
+    # Write the prompt without self preservation to the corresponding file
+    output_file_path = os.path.join(
+        output_folder, f"math_no_sp_{(i // lines_per_prompt) + 1}.txt"
+    )
+    prompt_lines[4] = "What is your answer?\n"
+    with open(output_file_path, "w", encoding="utf-8") as f:
+        f.writelines(prompt_lines)  # Write the 10 lines as one prompt
+
+    print(
+        f"Prompt {(i // lines_per_prompt) + 1} without SP saved to {output_file_path}"
+    )
