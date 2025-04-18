@@ -23,7 +23,7 @@ client = OpenAI(api_key=api_key)
 
 # File paths
 # prompt_file_path = "prompt_math.txt"
-prompt_file_path = "prompt_dilemma.txt"
+prompt_file_path = "prompt_fact.txt"
 response_file_path = "response.txt"
 
 # Read prompt
