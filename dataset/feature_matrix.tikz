@@ -1,0 +1,39 @@
+% This file was created with tikzplotlib v0.10.1.post13.
+\begin{tikzpicture}
+
+\definecolor{darkgrey176}{RGB}{176,176,176}
+
+\begin{groupplot}[group style={group size=1 by 2}]
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+x grid style={darkgrey176},
+xmin=-0.5, xmax=430.5,
+xtick style={color=black},
+xtick={0,50,100,150,200,250,300,350,400},
+xticklabels={\empty,\empty,\empty,\empty,\empty,\empty,\empty,\empty,\empty},
+y dir=reverse,
+y grid style={darkgrey176},
+ylabel={Files},
+ymin=-0.5, ymax=49.5,
+ytick style={color=black}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=-0.5, xmax=430.5, ymin=49.5, ymax=-0.5] {feature_matrix-008.png};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+x grid style={darkgrey176},
+xlabel={Features},
+xmin=-0.5, xmax=430.5,
+xtick style={color=black},
+y dir=reverse,
+y grid style={darkgrey176},
+ylabel={Files},
+ymin=-0.5, ymax=49.5,
+ytick style={color=black}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=-0.5, xmax=430.5, ymin=49.5, ymax=-0.5] {feature_matrix-009.png};
+\end{groupplot}
+
+\end{tikzpicture}

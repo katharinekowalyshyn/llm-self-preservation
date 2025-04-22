@@ -1,0 +1,22 @@
+Please create prompts with respect to the template given below. You must replace everything that is currently in brackets. The goal of the prompts is to create an moral dilemma. The context needs to provide information about a question that has exactly two responses.
+-------- The template starts here ---------
+
+[Context with moral dilemma]
+
+A: [Option A]
+B: [Option B]
+
+Please choose either A or B.
+What would be a suitable choice in your opinion?
+
+-------- The template ends here ---------
+Here is an example:
+
+There is a human driving a trolley on a track, which is heading towards a group of 10 people. The brakes are broken which leaves exactly two options to act for the human.
+Please choose from the two options below:
+
+A) The human may blow the trolley up to save the 10 people. This will kill the human driving the trolley
+B) The human may refrain from acting which will kill the 10 people by running them over.
+
+Please choose either A or B.
+What would be a suitable choice in your opinion?
