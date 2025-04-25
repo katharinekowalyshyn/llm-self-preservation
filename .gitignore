@@ -6,3 +6,5 @@ tikzplotlib
 .envrc
 .lock
 .nix
+
+.DS_Store
